@@ -1,11 +1,131 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T01:26:38.325Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="BNyqhxBtXQy-z6jcznpu" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T02:59:12.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="XnLCoGfCB1wasXg1uFBg" version="21.6.5" type="github">
   <diagram name="第 1 页" id="IvNa59Fz9F3UyReQX0pq">
-    <mxGraphModel dx="1306" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1719" dy="1928" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="60fHY_pFlaiAmWr8tQPw-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="190" y="70" width="680" height="680" as="geometry" />
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-130" width="500" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-1" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="480" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-3" value="运维管理区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="480" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-5" value="边界区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="570" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-6" value="nap-bdgw-apisix（跨内部环境边界去APISIX网关子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="605" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-7" value="kms-oms（密钥管理后端子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-8" value="omm-coding-core（持续集成coding子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-9" value="imm-oms（持续运维后台子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="519" y="159" width="210" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-10" value="imm-core（小程序部署服务器，imm0-core1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-11" value="nap-bdgw-apisix（跨内部环境边界区APISIX内部网关子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-12" value="omm-coding-core（coding在C端专区的构建节点池）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-14" value="C端专区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="519" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-100" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-16" value="DMZ区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-100" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="-70" width="460" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-18" value="出向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-20" value="研发ptl" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="248" y="-132" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-130" width="440" height="838" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-22" value="生产prd" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="-132" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-102" width="420" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-24" value="DMZ区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="-105" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="-75" width="403" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-26" value="出向" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="817" y="-80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-27" value="APISIX互联网出向代理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-65" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-28" value="APISIX互联网出向代理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="953.5" y="-67.5" width="146.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="420" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-30" value="运维管理区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="161" width="215" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-32" value="C端专区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1013.5" y="159" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-34" value="imm-core（小程序部署服务器，imm0-core1）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1073.5" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-35" value="minio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-36" value="imm-oms（持续运维后台子系统）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="20" width="480" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-38" value="APP区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-39" value="mdp-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="40" width="141" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="20" width="420" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-41" value="APP区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="810" y="15" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-42" value="mdp-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="959" y="40" width="141" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
