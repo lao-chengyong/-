@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T09:10:55.173Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="isvsAuB65A_SdA6kmSEA" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-13T11:50:20.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="YtIuZunNTV8aQypzBh5g" version="21.6.5" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
     <mxGraphModel dx="1744" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -127,16 +127,31 @@
             <mxPoint x="680" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-83" value="获取密钥" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-43">
+          <mxGeometry x="0.1021" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.399;entryY=0.981;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryPerimeter=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-7" target="6PQGACXjwFTCAQi2liqI-9">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="615" as="sourcePoint" />
             <mxPoint x="350" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-84" value="拉代码、装依赖、推拉制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-44">
+          <mxGeometry x="0.7081" y="3" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-13" target="6PQGACXjwFTCAQi2liqI-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="615" as="sourcePoint" />
             <mxPoint x="500" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-86" value="拉代码&lt;br&gt;装依赖&lt;br&gt;推拉制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-45">
+          <mxGeometry x="-0.0766" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -164,6 +179,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="320" as="sourcePoint" />
             <mxPoint x="640" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-85" value="拉制品、获取制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-51">
+          <mxGeometry x="0.1524" y="-2" relative="1" as="geometry">
+            <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-52" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-10" target="6PQGACXjwFTCAQi2liqI-47">
@@ -248,7 +268,7 @@
           <mxGeometry x="817" y="570" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-71" value="nap-bdgw-apisix（跨内部环境边界去APISIX网关子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
-          <mxGeometry x="920" y="620" width="120" height="60" as="geometry" />
+          <mxGeometry x="953.5" y="605" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" target="6PQGACXjwFTCAQi2liqI-71">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -297,7 +317,7 @@
             <mxPoint x="16" y="-2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-81" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-81" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="150" y="240" as="sourcePoint" />
             <mxPoint x="200" y="190" as="targetPoint" />
