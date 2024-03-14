@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T03:44:06.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VieBZu66CxBd1FhzfYjc" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T07:13:11.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="VyJWzMVV7yB6NsUodF6I" version="21.6.5" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
-    <mxGraphModel dx="1018" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1221" dy="1814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,7 +214,7 @@
             <mxPoint x="580" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-93" value="外发小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-54">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-93" value="外发测试小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-54">
           <mxGeometry x="-0.0047" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -247,16 +247,31 @@
             <mxPoint x="760" y="-175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-104" value="执行凡泰生产小程序部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-58">
+          <mxGeometry x="-0.0373" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-59" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-32" target="6PQGACXjwFTCAQi2liqI-27">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1540" y="150" as="sourcePoint" />
             <mxPoint x="1040" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-60" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-33" target="6PQGACXjwFTCAQi2liqI-32">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-103" value="外发生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-59">
+          <mxGeometry x="-0.3114" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-60" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-33" target="6PQGACXjwFTCAQi2liqI-63">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1144" y="210" as="sourcePoint" />
             <mxPoint x="1037" y="3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-101" value="执行部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-60">
+          <mxGeometry x="-0.3874" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -274,14 +289,13 @@
             <mxPoint x="640" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-102" value="执行部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-64">
+          <mxGeometry x="-0.0095" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-65" value="minio" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="850" y="370" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-67" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.466;entryY=1.001;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-65" target="6PQGACXjwFTCAQi2liqI-33">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="980" y="240" as="sourcePoint" />
-            <mxPoint x="1084" y="240" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-68" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="877" y="600" width="120" height="60" as="geometry" />
@@ -301,7 +315,7 @@
             <mxPoint x="730" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-95" value="同步生产" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-66">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-95" value="同步制品到生产" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-66">
           <mxGeometry x="0.0224" y="2" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
@@ -312,7 +326,7 @@
             <mxPoint x="916" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-96" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-72">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-96" value="同步制品到生产" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-72">
           <mxGeometry x="0.1928" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -323,15 +337,20 @@
             <mxPoint x="920" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-94" value="执行凡泰小程序st1、st2部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-73">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-94" value="执行凡泰测试小程序部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-73">
           <mxGeometry x="-0.5813" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-74" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-71" target="6PQGACXjwFTCAQi2liqI-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="990" y="630" as="sourcePoint" />
             <mxPoint x="920" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-97" value="执行凡泰小程序st1、st2部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-74">
+          <mxGeometry x="-0.3551" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-75" value="子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
@@ -366,6 +385,17 @@
         <mxCell id="6PQGACXjwFTCAQi2liqI-82" value="新增请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-81">
           <mxGeometry x="-0.1371" y="-6" relative="1" as="geometry">
             <mxPoint x="1" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-99" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-33" target="6PQGACXjwFTCAQi2liqI-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="240" as="sourcePoint" />
+            <mxPoint x="1084" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-100" value="拉取制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-99">
+          <mxGeometry x="-0.017" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
