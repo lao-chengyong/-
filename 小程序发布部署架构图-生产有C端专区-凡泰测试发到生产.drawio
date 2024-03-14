@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-13T11:50:20.355Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="YtIuZunNTV8aQypzBh5g" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T03:33:50.626Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="YsM7JxckUj5oF9z5B4bb" version="21.6.5" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
-    <mxGraphModel dx="1744" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="1707" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="6PQGACXjwFTCAQi2liqI-9" value="omm-coding-core（持续集成coding子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="360" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-10" value="imm-core（持续运维后台子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-10" value="imm-core（持续运维核心子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="360" y="189" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -100,7 +100,7 @@
         <mxCell id="6PQGACXjwFTCAQi2liqI-32" value="imm-core（小程序部署服务器，imm0-core1）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
           <mxGeometry x="1073.5" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-33" value="imm-core（持续运维后台子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-33" value="imm-core（持续运维核心子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="850" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -192,10 +192,20 @@
             <mxPoint x="510" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-89" value="执行部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-52">
+          <mxGeometry x="-0.1459" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-9" target="6PQGACXjwFTCAQi2liqI-47">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="490" y="229" as="sourcePoint" />
             <mxPoint x="580" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-87" value="执行构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-53">
+          <mxGeometry x="-0.2986" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-12" target="6PQGACXjwFTCAQi2liqI-26">
@@ -204,16 +214,31 @@
             <mxPoint x="580" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-93" value="外发小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-54">
+          <mxGeometry x="-0.0047" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-26" target="6PQGACXjwFTCAQi2liqI-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="200" as="sourcePoint" />
             <mxPoint x="515" y="5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-91" value="域名白名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-55">
+          <mxGeometry x="-0.0485" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-27" target="6PQGACXjwFTCAQi2liqI-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="515" y="-55" as="sourcePoint" />
             <mxPoint x="760" y="-175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-92" value="域名白名单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-57">
+          <mxGeometry x="-0.3274" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-58" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-32" target="6PQGACXjwFTCAQi2liqI-39">
@@ -274,6 +299,11 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="480" y="220" as="sourcePoint" />
             <mxPoint x="730" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-90" value="执行凡泰小程序st1、st2部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-66">
+          <mxGeometry x="-0.0253" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-72" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-71" target="6PQGACXjwFTCAQi2liqI-65">
