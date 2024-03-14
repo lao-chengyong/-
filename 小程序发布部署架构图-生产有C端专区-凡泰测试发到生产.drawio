@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T07:30:24.602Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="qx7W7v35TaYSDgHmZwrb" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-14T08:36:51.065Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="Hw1aqiUC0QAgfY0dGjoJ" version="21.6.5" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
     <mxGraphModel dx="2035" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,10 +169,20 @@
             <mxPoint x="510" y="615" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-105" value="执行构建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-49">
+          <mxGeometry x="-0.0306" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-50" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-47" target="6PQGACXjwFTCAQi2liqI-12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="640" y="380" as="sourcePoint" />
             <mxPoint x="640" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6PQGACXjwFTCAQi2liqI-106" value="执行部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-50">
+          <mxGeometry x="-0.4037" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-51" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6PQGACXjwFTCAQi2liqI-12" target="6PQGACXjwFTCAQi2liqI-7">
