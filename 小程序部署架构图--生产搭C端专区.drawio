@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-14T08:36:45.511Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="6DWt7k-Rx8Yn6-8PJa_6" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-15T02:43:10.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="MZpxxbBSp0VMKVbSaX21" version="21.6.5" type="github">
   <diagram name="第 1 页" id="IvNa59Fz9F3UyReQX0pq">
-    <mxGraphModel dx="1744" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -347,6 +347,40 @@
         <mxCell id="60fHY_pFlaiAmWr8tQPw-80" value="拉取制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60fHY_pFlaiAmWr8tQPw-71">
           <mxGeometry x="0.0025" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-91" value="子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-275" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-92" value="外部系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-195" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-93" value="网关代理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-94" value="新增" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-34.999999999999986" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-95" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="105.00000000000003" as="sourcePoint" />
+            <mxPoint x="200" y="55.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-96" value="请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60fHY_pFlaiAmWr8tQPw-95">
+          <mxGeometry x="-0.1371" y="10" relative="1" as="geometry">
+            <mxPoint x="16" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-97" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="185.00000000000003" as="sourcePoint" />
+            <mxPoint x="210" y="135.00000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="60fHY_pFlaiAmWr8tQPw-98" value="新增请求" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="60fHY_pFlaiAmWr8tQPw-97">
+          <mxGeometry x="-0.1371" y="-6" relative="1" as="geometry">
+            <mxPoint x="1" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
