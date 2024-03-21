@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-21T06:41:14.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="yiYvca_xLIfnFB2a0orJ" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-21T06:47:35.356Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="0GSKP3jMjTZWRJ8Asd97" version="21.6.5" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
-    <mxGraphModel dx="2035" dy="2244" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2220" dy="2342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -350,7 +350,7 @@
             <mxPoint x="580" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-93" value="外发测试小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6PQGACXjwFTCAQi2liqI-54" vertex="1" connectable="0">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-93" value="部署外部测试小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6PQGACXjwFTCAQi2liqI-54" vertex="1" connectable="0">
           <mxGeometry x="-0.0047" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -363,7 +363,7 @@
         </mxCell>
         <mxCell id="xFKDh-lIvcyjJV9DgT24-9" value="部署凡泰测试小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="xFKDh-lIvcyjJV9DgT24-7" vertex="1" connectable="0">
           <mxGeometry x="0.1561" relative="1" as="geometry">
-            <mxPoint x="-4" y="2" as="offset" />
+            <mxPoint x="-28" y="-18" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="xFKDh-lIvcyjJV9DgT24-10" value="acp-mgr&lt;br&gt;移动应用服务管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
@@ -375,7 +375,7 @@
             <mxPoint x="907" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-4" value="外发生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_efudZfRpgbGNTOQu6w-3">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-4" value="部署外部生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_efudZfRpgbGNTOQu6w-3">
           <mxGeometry x="-0.0153" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
