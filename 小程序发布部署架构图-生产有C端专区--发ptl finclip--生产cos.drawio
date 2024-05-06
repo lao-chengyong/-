@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T01:06:36.132Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="yKHTn0tt2H1rHBbBTTqL" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T02:13:01.366Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="36_vlmVl-9vjZrJ7UFYy" version="24.2.8" type="github">
   <diagram name="第 1 页" id="EOG2HZ5_NcPLtCkEs77e">
-    <mxGraphModel dx="740" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="2010" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -67,7 +67,7 @@
         <mxCell id="6PQGACXjwFTCAQi2liqI-38" value="APP区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="770" y="15" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-39" value="mdp-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-39" value="cos-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="1089" y="45" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -107,7 +107,7 @@
             <mxPoint x="720" y="-175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-6" value="部署凡泰生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-58">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-6" value="部署凡泰生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6PQGACXjwFTCAQi2liqI-58" vertex="1" connectable="0">
           <mxGeometry x="-0.4532" y="-1" relative="1" as="geometry">
             <mxPoint x="28" y="-1" as="offset" />
           </mxGeometry>
@@ -127,7 +127,7 @@
         <mxCell id="6PQGACXjwFTCAQi2liqI-71" value="nap-bdgw-apisix（跨内部环境边界去APISIX网关子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
           <mxGeometry x="913.5" y="461" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6PQGACXjwFTCAQi2liqI-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="6PQGACXjwFTCAQi2liqI-71" edge="1" source="Y_efudZfRpgbGNTOQu6w-16">
+        <mxCell id="6PQGACXjwFTCAQi2liqI-66" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="Y_efudZfRpgbGNTOQu6w-16" target="6PQGACXjwFTCAQi2liqI-71" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="543" y="140" as="sourcePoint" />
             <mxPoint x="730" y="200" as="targetPoint" />
@@ -197,7 +197,7 @@
             <mxPoint x="1033" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-1" value="推送小程序制品、并触发部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="6PQGACXjwFTCAQi2liqI-60">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-1" value="推送小程序制品、并触发部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="6PQGACXjwFTCAQi2liqI-60" vertex="1" connectable="0">
           <mxGeometry x="-0.0153" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -208,7 +208,7 @@
         <mxCell id="xFKDh-lIvcyjJV9DgT24-2" value="APP区" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="250" y="15" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="xFKDh-lIvcyjJV9DgT24-3" value="mdp-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="xFKDh-lIvcyjJV9DgT24-3" value="cos-finclip-oms&lt;br&gt;凡泰小程序管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="570" y="40" width="141" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6PQGACXjwFTCAQi2liqI-54" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#008a00;strokeColor=#005700;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Y_efudZfRpgbGNTOQu6w-25" target="6PQGACXjwFTCAQi2liqI-26" edge="1">
@@ -233,49 +233,49 @@
             <mxPoint x="-14" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xFKDh-lIvcyjJV9DgT24-10" value="acp-mgr（cos）&lt;br&gt;移动应用服务管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+        <mxCell id="xFKDh-lIvcyjJV9DgT24-10" value="cos-mgr&lt;br&gt;移动应用服务管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="800" y="45" width="141" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="xFKDh-lIvcyjJV9DgT24-10" target="6PQGACXjwFTCAQi2liqI-27">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-3" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="xFKDh-lIvcyjJV9DgT24-10" target="6PQGACXjwFTCAQi2liqI-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1027" y="230" as="sourcePoint" />
             <mxPoint x="907" y="115" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-4" value="部署外部生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_efudZfRpgbGNTOQu6w-3">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-4" value="部署外部生产小程序" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y_efudZfRpgbGNTOQu6w-3" vertex="1" connectable="0">
           <mxGeometry x="-0.0153" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-16" value="imm-core（持续运维核心子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-16" value="imm-core（持续运维核心子系统）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="440" y="196" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-17" value="omm-coding-core(持续集成coding核心子系统)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-17" value="omm-coding-core(持续集成coding核心子系统)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="440" y="316" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-20" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Y_efudZfRpgbGNTOQu6w-16" target="Y_efudZfRpgbGNTOQu6w-17">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-20" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#1ba1e2;strokeColor=#006EAF;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="Y_efudZfRpgbGNTOQu6w-16" target="Y_efudZfRpgbGNTOQu6w-17" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="538" y="116" as="sourcePoint" />
             <mxPoint x="565" y="76" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-21" value="拉取制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_efudZfRpgbGNTOQu6w-20">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-21" value="拉取制品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y_efudZfRpgbGNTOQu6w-20" vertex="1" connectable="0">
           <mxGeometry x="-0.017" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-22" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Y_efudZfRpgbGNTOQu6w-16" target="Y_efudZfRpgbGNTOQu6w-25">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-22" value="" style="endArrow=classic;html=1;rounded=0;fillColor=#008a00;strokeColor=#005700;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="Y_efudZfRpgbGNTOQu6w-16" target="Y_efudZfRpgbGNTOQu6w-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="630" y="210" as="sourcePoint" />
             <mxPoint x="397" y="105" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-23" value="推送小程序制品、并触发部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_efudZfRpgbGNTOQu6w-22">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-23" value="推送小程序制品、并触发部署" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Y_efudZfRpgbGNTOQu6w-22" vertex="1" connectable="0">
           <mxGeometry x="-0.0153" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y_efudZfRpgbGNTOQu6w-25" value="acp-mgr（cos）&lt;br&gt;移动应用服务管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+        <mxCell id="Y_efudZfRpgbGNTOQu6w-25" value="cos-mgr&lt;br&gt;移动应用服务管理端子系统" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
           <mxGeometry x="290" y="40" width="141" height="60" as="geometry" />
         </mxCell>
       </root>
